@@ -10,3 +10,6 @@ function footer() {
     '<footer><div class="footer"><a target="_blank" href="https://github.com/MuriloVS">Murilo Vitória da Silva\'s Github</a></div></footer>'
   );
 }
+
+header();
+footer();
