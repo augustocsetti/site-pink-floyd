@@ -13,10 +13,6 @@ body {
   line-height: 1.5em;
 }
 
-.main {
-  margin: 10px;
-}
-
 .container {
   max-width: 640px;
   margin: 50px auto;
@@ -58,15 +54,24 @@ form button:hover {
   background: var(--primary-color-darker);
 }
 
-.navbar {
+.navbar,
+.footer {
   overflow: hidden;
   background-color: #333;
-  position: relative;
+  position: fixed;
   width: 100%;
+}
+
+.navbar {
   top: 0;
 }
 
-.navbar a {
+.footer {
+  bottom: 0;
+}
+
+.navbar a,
+.footer a {
   float: left;
   display: block;
   color: #f2f2f2;
@@ -86,23 +91,10 @@ form button:hover {
   color: black;
 }
 
-.footer {
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-}
-.footer a {
-  float: center;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
 .footer a:hover {
   color: yellow;
+}
+
+.main {
+  margin: 70px 10px;
 }
