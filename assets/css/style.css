@@ -92,7 +92,7 @@ form button:hover {
 }
 
 .footer a:hover {
-  color: yellow;
+  color: var(--primary-color);
 }
 
 .main {
