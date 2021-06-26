@@ -5,20 +5,13 @@
 }
 
 body {
-  margin: 0;
   padding: 0;
   background: rgb(253, 253, 238);
   font-family: 'Open sans', sans-serif;
   font-size: 1.3em;
   line-height: 1.5em;
-}
-
-.container {
-  max-width: 640px;
-  margin: 50px auto;
-  background: #fff;
-  padding: 20px;
-  border-radius: 10px;
+  width: 80%;
+  margin: 0 auto;
 }
 
 form input,
@@ -59,7 +52,7 @@ form button:hover {
   overflow: hidden;
   background-color: #333;
   position: fixed;
-  width: 100%;
+  width: 80%;
 }
 
 .navbar {
@@ -75,10 +68,10 @@ form button:hover {
   float: left;
   display: block;
   color: #f2f2f2;
-  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  text-transform: uppercase;
 }
 
 .navbar a:hover {
@@ -96,5 +89,17 @@ form button:hover {
 }
 
 .main {
-  margin: 70px 10px;
+  margin: 80px 20px;
+  align-content: center;
+}
+
+.w3-container {
+  outline: coral solid 2px;
+  display: block;
+  background-color: rgb(255, 255, 255);
+  padding: 5px 5px;
+}
+
+#main_title {
+  text-align: center;
 }
