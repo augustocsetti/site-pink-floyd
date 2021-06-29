@@ -2,6 +2,7 @@
 :root {
   --primary-color: rgb(255, 247, 138);
   --primary-color-darker: rgb(235, 228, 130);
+  --page-width: 70%;
 }
 
 body {
@@ -10,7 +11,7 @@ body {
   font-family: 'Open sans', sans-serif;
   font-size: 1.3em;
   line-height: 1.5em;
-  width: 80%;
+  width: var(--page-width);
   margin: 0 auto;
 }
 
@@ -52,7 +53,7 @@ form button:hover {
   overflow: hidden;
   background-color: #333;
   position: fixed;
-  width: 80%;
+  width: var(--page-width);
 }
 
 .navbar {
@@ -101,6 +102,24 @@ form button:hover {
   padding: 5px 5px;
 }
 
-#main_title {
+.main_title {
   text-align: center;
+}
+
+.integrantes {
+  border-radius: 4px;
+  padding: 15px;
+  width: 200px;
+  float: left;
+  transition: -webkit-transform 0.25s ease;
+  transition: transform 0.25s ease;
+}
+
+.integrantes:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.integrantes:active {
+  -webkit-transform: scale(2);
+  transform: scale(1.5);
 }
