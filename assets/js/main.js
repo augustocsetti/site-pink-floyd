@@ -34,11 +34,11 @@ document.addEventListener('click', (evento) => {
 
 const headerContent = document.getElementById('header');
 headerContent.innerHTML = `<div class="navbar">
-        <a href="index.html">Home</a>
-        <a href="integrantes.html">Integrantes</a>
-        <a href="discografia.html">Discografia</a>
-        <a href="contato.html">Contato</a>
-        </div>`;
+      <a href="index.html">Home</a>
+      <a href="integrantes.html">Integrantes</a>
+      <a href="discografia.html">Discografia</a>
+      <a href="contato.html">Contato</a>
+    </div>`;
 
 const footerContent = document.getElementById('footer');
 footerContent.innerHTML = `<div class="footer">

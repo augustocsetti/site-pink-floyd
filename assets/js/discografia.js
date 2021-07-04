@@ -26,6 +26,9 @@ export const piper = `<h1 class="main_title">The Piper at Gates of Dawn</h2>
     Rato, como se estivesse em transe. "Aqui é o meu local sagrado, se o pudermos 
     encontrar nalgum lado, é aqui"). O flautista (em inglês: piper) é identificado 
     com o deus grego Pan.
+</p>
+<p class="youtube">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4o2sA0vpA-4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>`;
 
 export const saucerful = `<h1 class="main_title">A Saucerful of Secrets</h2>
@@ -36,6 +39,9 @@ export const saucerful = `<h1 class="main_title">A Saucerful of Secrets</h2>
 A Saucerful of Secrets é o segundo álbum de estúdio da banda inglesa de rock Pink Floyd. O álbum foi gravado nos Abbey Road Studios da EMI, em várias sessões entre Agosto de 1967 e Abril de 1968, sendo lançado em 29 de Junho de 1968 pela EMI Columbia no Reino Unido, e em 27 de Julho de 1968 no Estados Unidos pela Tower.
 
 Este álbum foi gravado antes e depois da saída de Syd Barrett do grupo. Devido ao comportamento cada vez mais imprevisível de Barrett, David Gilmour foi recrutado em Janeiro de 1968. Esta situação caracteriza A Saucerful of Secrets como o único álbum de originais dos Pink Floyd em que todos os cinco membros da banda estão presentes; o primeiro de Gilmour, em que participa em cinco músicas (Let There Be More Light, Set the Controls for the Heart of the Sun, Corporal Clegg, A Saucerful of Secrets e See-Saw); e o último de Barrett, em que surge em três faixas (Remember a Day, Jugband Blues e Set the Controls for the Heart of the Sun). Set the Controls for the Heart of the Sun é a única música em que os cinco membros tocam juntos.
+</p>
+<p class="youtube">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UYI8NnN3xZg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>`;
 
 export const more = `<h1 class="main_title">More</h2>
@@ -50,6 +56,9 @@ Por ser a trilha sonora de um filme bem experimental, as músicas seguem essa ex
 As músicas não são tão interessantes assim: quando são psicodélicas, elas meandram sem sentido e sem direção (“Quicksilver”); quando são mais mainstream, elas caem em armadilhas óbvias (“Cymbaline” beira ao pop sujo de bandas menores); quando são pesadas, não encaixam no estilo da banda (“The Nile Song” e “Ibiza Bar”, duas músicas que lembram “Helter Skelter” dos Beatles, que prova que eles não estavam tão apaixonados pelo disco); e quando eles tentam fazer as patetices do Syd Barrett, fica forçado e sem graça (“A Spanish Piece”). As interessantes são um punhado, com “Crying Song”, um rock bem britânica acústico, que faz muito com bem pouco, “More Blues”, um blues rápido, simples e bem executado, apesar de um pouco genérico, e “Main Theme”, a abertura do filme que realmente tem cheiro de droga.
 
 A melhor música do disco é “Green is the Colour”, um folk rock bem simples, com um vocal assoprado simples mas eficiente. Não foi comum na carreira da banda ir para um lado mais folk, então é divertido ver o que eles fariam se necessário fosse.
+</p>
+<p class="youtube">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GfPVM5dFlp8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>`;
 
 export const ummagumma = `<h1 class="main_title">Ummagumma</h2>
@@ -60,6 +69,9 @@ export const ummagumma = `<h1 class="main_title">Ummagumma</h2>
 Ummagumma é o quarto álbum de estúdio da banda inglesa de rock progressivo Pink Floyd. É um álbum duplo e foi lançado em 25 de Outubro de 1969 pela editora Harvest Records, no Reino Unido, e pela Capitol Records internacionalmente. O primeiro disco é uma gravação ao vivo que contém parte das músicas que o grupo tocava na época, enquanto que o segundo disco contém músicas compostas por cada membro. O trabalho gráfico foi elaborado pela colaboradora habitual do Pink Floyd, a Hipgnosis, e inclui várias imagens da banda combinadas para dar um efeito Droste.
 
 Apesar de o álbum ter sido bem recebido na altura da sua comercialização, e de ter chegado ao top cinco das tabelas de venda do Reino Unido, o próprio grupo não o vê como um bom trabalho, opinião expressa em entrevistas. Ainda assim, o álbum já foi editado em CD por diversas vezes, em simultâneo com o resto dos seus trabalhos.
+</p>
+<p class="youtube">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xOerkHz6UYE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>`;
 
 export const atom = `<h1 class="main_title">Atom Heart Mother</h2>
