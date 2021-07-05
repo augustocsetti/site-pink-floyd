@@ -16,6 +16,23 @@ export const nick = `<h1 class="main_title">Nick Mason</h2>
     <p> 
       Nicholas Berkeley "Nick" Mason (Birmingham, 27 de janeiro de 1944) é um baterista e compositor inglês, mais conhecido por ser o único integrante da formação original dos Pink Floyd - ele foi o único membro que não saiu desde a formação da banda em 1965. Apesar de escrever poucas músicas para o Pink Floyd, ele contribui com algumas das mais famosas músicas da banda, como "Interstellar Overdrive", "A Saucerful Of Secrets" e "Echoes". Ele também compete em eventos automobilísticos, como as 24 Horas de Le Mans. 
       Ele foi o único membro do Pink Floyd a participar da gravação de todos os álbuns.
+      Apesar dos conflitos pelo direito do nome 'Pink Floyd' que começou quando Roger Waters saiu da banda em 1986 e durou 7 anos, Roger e Nick estão de bem atualmente. Nick Mason tocou com Waters nos últimos dois dias de sua turnê mundial de 2002 tocando bateria na música "Set the Controls for the Heart of the Sun", ele também tocou em alguns shows da turnê europeia de Waters em 2006 e em algumas performances em Los Angeles e Nova York nos Estados Unidos. Em maio de 2007, Mason e Waters voltaram aos palcos novamente em Earls Court para tocar The Dark Side of the Moon. No dia 12 de maio de 2011,juntamente com David Gilmour, eles tocaram Outside the Wall na turnê The Wall Live de Roger Waters. David também tocou Comfortably Numb naquela noite.
+
+Em julho de 2005, Nick, David, Richard e Roger tocaram juntos no Live 8 em Londres, após 24 anos de não tocarem juntos. Mason também tocou com David Gilmour e Richard Wright durante o show de Gilmour no Royal Albert Hall em Londres, no dia 31 de maio de 2006, reunindo a banda "pós Roger Waters". Nick diz ser a ligação entre Gilmour e Waters, e acredita que a banda vai tocar novamente ao vivo. Suas respostas passaram de "tocar para fins beneficentes" para "uma turnê" em várias entrevistas nos últimos anos. Ele também disse, em 2006, que os Pink Floyd não acabaram oficialmente.
+
+A única música dos Pink Floyd criada apenas por Nick são "The Grand Vizier's Garden Party Parts 1-3" (do álbum Ummagumma) e "Speak to Me" (do álbum The Dark Side of the Moon). A canção da banda chamada "Nick's Boogie" levou esse nome em sua homenagem.
+
+As únicas vezes que a voz de Nick Mason foi encorporada nos álbuns dos Pink Floyd foram em "Corporal Clegg", "One of These Days", "Signs of Life" e "Learning to Fly" do álbum A Momentary Lapse of Reason. Ele, contudo, cantou em duas faixas não lançadas oficialmente, "Scream Thy Last Scream" (1967) e "The Merry Xmas Song" (1975–76). Em performances ao vivo, ele fez a parte falada em "Sheep".
+
+Diferente dos outros membros dos Pink Floyd, Nick Mason raramente tocou outro instrumento sem ser o seu usual (bateria), embora tenha contribuído com diversos efeitos sonoros nos álbuns dos Pink Floyd. As únicas vezes que ele tocou um instrumento sem ser de percussão foi em "The Grand Vizier's Garden Party", sua composição pessoa de Ummagumma, onde ele tocou teclado, guitarra e barulhos de baixo, e em versões ao vivo de "Outside the Wall", onde ele tocava violão com osoutros músicos.
+
+Nick já fez vários outros trabalhos como produtor e baterista para Steve Hillage, Robert Wyatt, The Damned e Gong. Ele também tocou bateria com Michael Mantler.
+
+Nick usava bateria Premier nos anos 60 e às vezes nos anos 70 (principalmente durante as gravações de Wish You Were Here). Depois disso, ele usou Ludwig dos anos 70 até 1992. Atualmente, ele usa Drum Workshop (DW). Sua bateria é uma DW com dois bombos, com o símbolo de Dark Side of the Moon. Ele também usou pratos Paiste durante toda sua carreira com os Pink Floyd. Ele usa uma combinação de pratos Paiste série Traditional, Signature e 2002. Foi Considerado o melhor baterista de todos os tempos por pessoas como Eddie Van Halen, Richie Blackmore e Vinny Apice e outros astros do rock.
+
+O livro de Nick Mason, Inside Out: A Personal History of Pink Floyd, foi publicado em outubro de 2004 no Reino Unido.
+
+Em 02 de maio de 2019, Nick Mason foi condecorado pelo Príncipe William como Comandante da Mais Excelente Ordem do Império Britânico (CBE). O título foi concedido ao eterno baterista dos Pink Floyd pelos seus serviços prestados à música.
     </p>
   </div>`;
 export const roger = `<h1 class="main_title">Roger Waters</h2>

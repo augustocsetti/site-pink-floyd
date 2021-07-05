@@ -2,7 +2,7 @@
 :root {
   --primary-color: rgb(255, 247, 138);
   --primary-color-darker: rgb(235, 228, 130);
-  --page-width: 70%;
+  --page-width: 65%;
 }
 
 body {
@@ -12,6 +12,7 @@ body {
   font-size: 1.3em;
   line-height: 1.5em;
   width: var(--page-width);
+  height: 90%;
   margin: 0 auto;
 }
 
@@ -99,7 +100,7 @@ form button:hover {
   outline: black solid 2px;
   display: block;
   background-color: rgb(255, 255, 255);
-  padding: 5px 5px;
+  padding: 15px 15px;
 }
 
 .main_title {
@@ -141,5 +142,5 @@ tr:hover {
 }
 
 .youtube {
-  padding-left: 200px;
+  text-align: center;
 }
