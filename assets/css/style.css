@@ -100,7 +100,7 @@ form button:hover {
   outline: black solid 2px;
   display: block;
   background-color: rgb(255, 255, 255);
-  padding: 15px 15px;
+  padding: 25px 25px;
 }
 
 .main_title {
@@ -143,4 +143,13 @@ tr:hover {
 
 .youtube {
   text-align: center;
+}
+
+#albuns {
+  display: inline-flex;
+}
+
+#discography {
+  padding-left: 100px;
+  align-self: flex-start;
 }
