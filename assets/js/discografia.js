@@ -87,4 +87,7 @@ Foi o primeiro álbum do Pink Floyd a ser especialmente produzido em som quadrif
 A capa do álbum foi desenhada pela Hipgnosis, e foi a primeira onde não consta o nome do grupo nem sequer fotografias dos seus membros. Esta mudança continuaria a ser um padrão das capas da banda na década de 1970 e seguintes.
 
 Embora tenha tido sucesso comercial aquando do seu lançamento, o grupo, em particular Waters e David Gilmour, mostraram o seu desagrado sobre o álbum mais recentemente. Apesar disso, manteve-se um trabalho suficientemente popular para Gilmour tocar a faixa que dá nome ao álbum, com Geesin, em 2008.
+</p>
+<p class="youtube">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UnPe5d9GS2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>`;
