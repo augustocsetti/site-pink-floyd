@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 :root {
-  --primary-color: rgb(255, 247, 138);
-  --primary-color-darker: rgb(235, 228, 130);
   --page-width: 65%;
 }
 
@@ -31,12 +29,12 @@ form input {
 }
 
 form input:focus {
-  outline: 1px solid var(--primary-color);
+  outline: 1px solid rgb(255, 247, 138);
 }
 
 form button {
   border: none;
-  background: var(--primary-color);
+  background: rgb(255, 247, 138);
   color: #fff;
   font-size: 18px;
   font-weight: 700;
@@ -46,7 +44,7 @@ form button {
 }
 
 form button:hover {
-  background: var(--primary-color-darker);
+  background: rgb(235, 228, 130);
 }
 
 .navbar,
@@ -82,12 +80,12 @@ form button:hover {
 }
 
 .navbar a:focus {
-  background: var(--primary-color-darker);
+  background: rgb(235, 228, 130);
   color: black;
 }
 
 .footer a:hover {
-  color: var(--primary-color);
+  color: rgb(255, 247, 138);
 }
 
 .main {
