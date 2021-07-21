@@ -7,7 +7,7 @@ body {
   padding: 0;
   background: rgb(253, 253, 238);
   font-family: 'Open sans', sans-serif;
-  font-size: 1.3em;
+  font-size: 1em;
   line-height: 1.5em;
   width: var(--page-width);
   height: 90%;

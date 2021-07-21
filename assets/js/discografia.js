@@ -1,6 +1,6 @@
 export const piper = `<h1 class="main_title">The Piper at Gates of Dawn</h2>
 <div>
-    <img src="../assets/img/1_the_piper.jpg" alt="The Piper at Gates of Dawn" class="integrantes">
+    <img src="./assets/img/1_the_piper.jpg" alt="The Piper at Gates of Dawn" class="integrantes">
 </div>
 <p>
     The Piper at the Gates of Dawn é o álbum de estreia da banda britânica de 
@@ -33,7 +33,7 @@ export const piper = `<h1 class="main_title">The Piper at Gates of Dawn</h2>
 
 export const saucerful = `<h1 class="main_title">A Saucerful of Secrets</h2>
 <div>
-    <img src="../assets/img/2_saucerful.jpg" alt="A Saucerful of Secrets" class="integrantes">
+    <img src="./assets/img/2_saucerful.jpg" alt="A Saucerful of Secrets" class="integrantes">
 </div>
 <p>
 A Saucerful of Secrets é o segundo álbum de estúdio da banda inglesa de rock Pink Floyd. O álbum foi gravado nos Abbey Road Studios da EMI, em várias sessões entre Agosto de 1967 e Abril de 1968, sendo lançado em 29 de Junho de 1968 pela EMI Columbia no Reino Unido, e em 27 de Julho de 1968 no Estados Unidos pela Tower.
@@ -46,7 +46,7 @@ Este álbum foi gravado antes e depois da saída de Syd Barrett do grupo. Devido
 
 export const more = `<h1 class="main_title">More</h2>
 <div>
-    <img src="../assets/img/3_more.jpg" alt="More" class="integrantes">
+    <img src="./assets/img/3_more.jpg" alt="More" class="integrantes">
 </div>
 <p>
 No final da década de 60, Pink Floyd já era um nome conhecido em alguns círculos, incluindo os círculos de pessoas envolvidas no mundo cinematográfico: essas não foram as primeiras músicas que o Pink Floyd lançou para um filme, mas esse é a única trilha sonora que eles produziram que é considerado um disco do Pink Floyd. O filme em questão compartilha o mesmo nome, sobre um homem que se vicia em heroína e as consequências disso. O álbum é o primeiro do Floyd sem o Syd Barrett, todas as músicas são cantada pelo David Gilmour e recebeu críticas mistas na época, apesar de obter algum sucesso nas paradas britânicas.
@@ -63,7 +63,7 @@ A melhor música do disco é “Green is the Colour”, um folk rock bem simples
 
 export const ummagumma = `<h1 class="main_title">Ummagumma</h2>
 <div>
-    <img src="../assets/img/4_ummagumma.jpg" alt="Ummagumma" class="integrantes">
+    <img src="./assets/img/4_ummagumma.jpg" alt="Ummagumma" class="integrantes">
 </div>
 <p>
 Ummagumma é o quarto álbum de estúdio da banda inglesa de rock progressivo Pink Floyd. É um álbum duplo e foi lançado em 25 de Outubro de 1969 pela editora Harvest Records, no Reino Unido, e pela Capitol Records internacionalmente. O primeiro disco é uma gravação ao vivo que contém parte das músicas que o grupo tocava na época, enquanto que o segundo disco contém músicas compostas por cada membro. O trabalho gráfico foi elaborado pela colaboradora habitual do Pink Floyd, a Hipgnosis, e inclui várias imagens da banda combinadas para dar um efeito Droste.
@@ -76,7 +76,7 @@ Apesar de o álbum ter sido bem recebido na altura da sua comercialização, e d
 
 export const atom = `<h1 class="main_title">Atom Heart Mother</h2>
 <div>
-    <img src="../assets/img/5_atom.jpg" alt="Atom Heart Mother" class="integrantes">
+    <img src="./assets/img/5_atom.jpg" alt="Atom Heart Mother" class="integrantes">
 </div>
 <p>
 Atom Heart Mother é o quinto álbum de estúdio da banda inglesa de rock Pink Floyd. Foi lançada pela Harvest e pela EMI Records a 2 de Outubro de 1970 no Reino Unido, e pela Harvest e Capitol a 10 de Outubro de 1970 nos Estados Unidos. Foi gravado nos estúdios de Abbey Road, em Londres, e foi o primeiro álbum da banda a chegar ao primeiro lugar nas tabelas de vendas do Reino Unido, enquanto que nos EUA apenas alcançou a 55ª posição, acabando, no entanto, por receber o disco de ouro da RIAA neste país.
