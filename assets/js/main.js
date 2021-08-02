@@ -1,4 +1,20 @@
-import { atom, more, piper, saucerful, ummagumma } from './discografia.js';
+import {
+  atom,
+  more,
+  piper,
+  saucerful,
+  ummagumma,
+  meddle,
+  clouds,
+  moon,
+  wish,
+  animals,
+  wall,
+  cut,
+  reason,
+  bell,
+  endless,
+} from './discografia.js';
 import { david, nick, richard, roger, syd } from './integrantes.js';
 
 const integrantesContent = document.getElementById('integrante-conteudo');
@@ -35,6 +51,26 @@ if (discografiaContent) {
       discografiaContent.innerHTML = ummagumma;
     } else if (elemento === 'atom') {
       discografiaContent.innerHTML = atom;
+    } else if (elemento === 'meddle') {
+      discografiaContent.innerHTML = meddle;
+    } else if (elemento === 'clouds') {
+      discografiaContent.innerHTML = clouds;
+    } else if (elemento === 'moon') {
+      discografiaContent.innerHTML = moon;
+    } else if (elemento === 'wish') {
+      discografiaContent.innerHTML = wish;
+    } else if (elemento === 'animals') {
+      discografiaContent.innerHTML = animals;
+    } else if (elemento === 'wall') {
+      discografiaContent.innerHTML = wall;
+    } else if (elemento === 'cut') {
+      discografiaContent.innerHTML = cut;
+    } else if (elemento === 'reason') {
+      discografiaContent.innerHTML = reason;
+    } else if (elemento === 'bell') {
+      discografiaContent.innerHTML = bell;
+    } else if (elemento === 'endless') {
+      discografiaContent.innerHTML = endless;
     }
   });
 }
