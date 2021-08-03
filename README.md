@@ -12,3 +12,7 @@ FAZER:
 - Site responsivo
 
 - Ajustar posição do box de texto
+- Adicionar imagem ou algo mais na página principal
+- Estilo lista e tabelas
+- Botão voltar
+- Arrumr botão de contato

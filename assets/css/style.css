@@ -15,7 +15,32 @@ body {
 }
 
 /* #region NAV and FOOTER */
-.navbar,
+nav {
+  display: flex;
+  flex-direction: unset;
+  list-style: none;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  width: var(--page-width);
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
 .footer {
   overflow: hidden;
   background-color: #333;
@@ -23,15 +48,6 @@ body {
   width: var(--page-width);
 }
 
-.navbar {
-  top: 0;
-}
-
-.footer {
-  bottom: 0;
-}
-
-.navbar a,
 .footer a {
   float: left;
   display: block;
@@ -40,6 +56,14 @@ body {
   text-decoration: none;
   font-size: 17px;
   text-transform: uppercase;
+}
+
+.navbar {
+  top: 0;
+}
+
+.footer {
+  bottom: 0;
 }
 
 .navbar a:hover {
@@ -62,10 +86,12 @@ body {
 }
 /* #endregion */
 
-/* #region MAIN and TEXT*/
-.main {
+/* #region BODY, MAIN and TEXT*/
+
+main {
   margin: 80px 20px;
   align-content: center;
+  text-align: justify;
   box-shadow: 10px 5px 5px black;
   outline: black solid 2px;
   display: block;

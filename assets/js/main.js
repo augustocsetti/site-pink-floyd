@@ -1,45 +1,92 @@
-import { atom, more, piper, saucerful, ummagumma } from "./discografia.js";
+import {
+  atom,
+  more,
+  piper,
+  saucerful,
+  ummagumma,
+  meddle,
+  clouds,
+  moon,
+  wish,
+  animals,
+  wall,
+  cut,
+  reason,
+  bell,
+  endless,
+} from "./discografia.js";
 import { david, nick, richard, roger, syd } from "./integrantes.js";
 
 const integrantesContent = document.getElementById("integrante-conteudo");
-const discografiaContent = document.getElementById("discografia-conteudo");
+if (integrantesContent) {
+  integrantesContent.addEventListener("click", (evento) => {
+    const elemento = evento.target.id;
 
-document.addEventListener("click", (evento) => {
-  const elemento = evento.target;
-  // integrantes
-  if (elemento.id === "syd") {
-    integrantesContent.innerHTML = syd;
-  } else if (elemento.id === "nick") {
-    integrantesContent.innerHTML = nick;
-  } else if (elemento.id === "roger") {
-    integrantesContent.innerHTML = roger;
-  } else if (elemento.id === "richard") {
-    integrantesContent.innerHTML = richard;
-  } else if (elemento.id === "david") {
-    integrantesContent.innerHTML = david;
-  }
-  // discografia
-  else if (elemento.id === "piper") {
-    discografiaContent.innerHTML = piper;
-  } else if (elemento.id === "saucerful") {
-    discografiaContent.innerHTML = saucerful;
-  } else if (elemento.id === "more") {
-    discografiaContent.innerHTML = more;
-  } else if (elemento.id === "ummagumma") {
-    discografiaContent.innerHTML = ummagumma;
-  } else if (elemento.id === "atom") {
-    discografiaContent.innerHTML = atom;
-  }
-});
+    if (elemento === "syd") {
+      integrantesContent.innerHTML = syd;
+    } else if (elemento === "nick") {
+      integrantesContent.innerHTML = nick;
+    } else if (elemento === "roger") {
+      integrantesContent.innerHTML = roger;
+    } else if (elemento === "richard") {
+      integrantesContent.innerHTML = richard;
+    } else if (elemento === "david") {
+      integrantesContent.innerHTML = david;
+    }
+  });
+}
+
+const discografiaContent = document.getElementById("discografia-conteudo");
+console.log(discografiaContent);
+if (discografiaContent) {
+  discografiaContent.addEventListener("click", (evento) => {
+    const elemento = evento.target.id;
+
+    if (elemento === "piper") {
+      discografiaContent.innerHTML = piper;
+    } else if (elemento === "saucerful") {
+      discografiaContent.innerHTML = saucerful;
+    } else if (elemento === "more") {
+      discografiaContent.innerHTML = more;
+    } else if (elemento === "ummagumma") {
+      discografiaContent.innerHTML = ummagumma;
+    } else if (elemento === "atom") {
+      discografiaContent.innerHTML = atom;
+    } else if (elemento === "meddle") {
+      discografiaContent.innerHTML = meddle;
+    } else if (elemento === "clouds") {
+      discografiaContent.innerHTML = clouds;
+    } else if (elemento === "moon") {
+      discografiaContent.innerHTML = moon;
+    } else if (elemento === "wish") {
+      discografiaContent.innerHTML = wish;
+    } else if (elemento === "animals") {
+      discografiaContent.innerHTML = animals;
+    } else if (elemento === "wall") {
+      discografiaContent.innerHTML = wall;
+    } else if (elemento === "cut") {
+      discografiaContent.innerHTML = cut;
+    } else if (elemento === "reason") {
+      discografiaContent.innerHTML = reason;
+    } else if (elemento === "bell") {
+      discografiaContent.innerHTML = bell;
+    } else if (elemento === "endless") {
+      discografiaContent.innerHTML = endless;
+    }
+  });
+}
 
 const headerContent = document.getElementById("header");
-headerContent.innerHTML = `<div class="navbar">
-      <h1 class = "title-page">O Site do Murilo</h1>
-      <a href="index.html">Home</a>
-      <a href="integrantes.html">Integrantes</a>
-      <a href="discografia.html">Discografia</a>
-      <a href="contato.html">Contato</a>
-    </div>`;
+headerContent.innerHTML = `<nav class="navbar">
+      <h1 id = "title-page">SJIDSOOJDSAI</h1>
+
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="integrantes.html">Integrantes</a></li>
+        <li><a href="discografia.html">Discografia</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>`;
 
 const footerContent = document.getElementById("footer");
 footerContent.innerHTML = `<div class="footer">
