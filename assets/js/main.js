@@ -14,43 +14,56 @@ import {
   reason,
   bell,
   endless,
+  discografiaTable,
 } from './discografia.js';
-import { david, nick, richard, roger, syd } from './integrantes.js';
+import {
+  david,
+  integrantesList,
+  nick,
+  richard,
+  roger,
+  syd,
+} from './integrantes.js';
 
-const integrantesContent = document.getElementById("integrante-conteudo");
+const integrantesContent = document.getElementById('integrante-conteudo');
 if (integrantesContent) {
-  integrantesContent.addEventListener("click", (evento) => {
+  integrantesContent.innerHTML = integrantesList;
+  integrantesContent.addEventListener('click', (evento) => {
     const elemento = evento.target.id;
 
-    if (elemento === "syd") {
+    if (elemento === 'syd') {
       integrantesContent.innerHTML = syd;
-    } else if (elemento === "nick") {
+    } else if (elemento === 'nick') {
       integrantesContent.innerHTML = nick;
-    } else if (elemento === "roger") {
+    } else if (elemento === 'roger') {
       integrantesContent.innerHTML = roger;
-    } else if (elemento === "richard") {
+    } else if (elemento === 'richard') {
       integrantesContent.innerHTML = richard;
-    } else if (elemento === "david") {
+    } else if (elemento === 'david') {
       integrantesContent.innerHTML = david;
+    } else if (elemento === 'integrantes-back') {
+      integrantesContent.innerHTML = integrantesList;
     }
   });
 }
 
-const discografiaContent = document.getElementById("discografia-conteudo");
-console.log(discografiaContent);
+const discografiaContent = document.getElementById('discografia-conteudo');
+
 if (discografiaContent) {
-  discografiaContent.addEventListener("click", (evento) => {
+  discografiaContent.innerHTML = discografiaTable;
+
+  discografiaContent.addEventListener('click', (evento) => {
     const elemento = evento.target.id;
 
-    if (elemento === "piper") {
+    if (elemento === 'piper') {
       discografiaContent.innerHTML = piper;
-    } else if (elemento === "saucerful") {
+    } else if (elemento === 'saucerful') {
       discografiaContent.innerHTML = saucerful;
-    } else if (elemento === "more") {
+    } else if (elemento === 'more') {
       discografiaContent.innerHTML = more;
-    } else if (elemento === "ummagumma") {
+    } else if (elemento === 'ummagumma') {
       discografiaContent.innerHTML = ummagumma;
-    } else if (elemento === "atom") {
+    } else if (elemento === 'atom') {
       discografiaContent.innerHTML = atom;
     } else if (elemento === 'meddle') {
       discografiaContent.innerHTML = meddle;
@@ -72,11 +85,13 @@ if (discografiaContent) {
       discografiaContent.innerHTML = bell;
     } else if (elemento === 'endless') {
       discografiaContent.innerHTML = endless;
+    } else if (elemento === 'discografia-back') {
+      discografiaContent.innerHTML = discografiaTable;
     }
   });
 }
 
-const headerContent = document.getElementById("header");
+const headerContent = document.getElementById('header');
 headerContent.innerHTML = `
     
     <nav class="navbar">
@@ -91,7 +106,7 @@ headerContent.innerHTML = `
 
     `;
 
-const footerContent = document.getElementById("footer");
+const footerContent = document.getElementById('footer');
 footerContent.innerHTML = `<nav class="footer">
       <a target="_blank" href="https://github.com/augustocsetti">Augusto Cardoso Setti's Github</a>      
       <a target="_blank" href="https://github.com/MuriloVS">Murilo Vitória da Silva's Github</a>

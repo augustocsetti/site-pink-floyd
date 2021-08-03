@@ -1,3 +1,27 @@
+const integrantesBack = `<div id="back-section">
+    <img src="./assets/img/back.png" alt="back" id="integrantes-back">
+</div>`;
+
+export const integrantesList = `<h2 class="main_title">Integrantes</h2>
+<section id="lista_integrantes">
+  <ul class="listas">
+    <li><a href="#" id="syd">Syd Barret</a></li>
+    <li><a href="#" id="nick">Nick Mason</a></li>
+    <li><a href="#" id="roger">Roger Waters</a></li>
+    <li>
+      <a href="#" id="richard">Richard Wright</a>
+    </li>
+    <li><a href="#" id="david">David Gilmour</a></li>
+  </ul>
+  <div id="discography">
+    <img
+      src="./assets/img/all_members.jpg"
+      alt="all_members"
+      class="certain_images"
+    />
+  </div>
+</section>`;
+
 export const syd = `<section>
   <h2 class="main_title">Syd Barret</h2>
   <img src="./assets/img/300px-Sydbarret.jpg" alt="Syd_Barrett" class="integrantes">
@@ -10,6 +34,7 @@ export const syd = `<section>
   <p>
     Em sua vida pós-música, ele continuou pintando e se dedicou à jardinagem. Nunca mais voltou a público. Barrett morreu em 2006, por complicações advindas de diabetes. Diversas biografias foram escritas sobre ele desde os anos 80, e o Pink Floyd escreveu e gravou inúmeros tributos a ele após sua saída do grupo, sendo o mais conhecido deles o álbum Wish You Were Here, de 1975. Em 1996, ele foi induzido ao Hall da Fama do Rock and Roll, como membro do Pink Floyd.
   </p>
+  ${integrantesBack}
 </section>`;
 
 export const nick = `<section>
@@ -44,6 +69,7 @@ export const nick = `<section>
   <p>
     Em 02 de maio de 2019, Nick Mason foi condecorado pelo Príncipe William como Comandante da Mais Excelente Ordem do Império Britânico (CBE). O título foi concedido ao eterno baterista dos Pink Floyd pelos seus serviços prestados à música.
   </p>
+  ${integrantesBack}
 </section>`;
 
 export const roger = `<section>
@@ -61,6 +87,7 @@ export const roger = `<section>
   <p>
     Em 2 de julho de 2005, ele reuniu os seus ex-parceiros de Pink Floyd: Nick Mason, Richard Wright e David Gilmour para o Live 8, um concerto de caridade. Foi a primeira aparição do grupo com Waters desde a última performance deles, 24 anos antes. Em 2010, ele iniciou a turnê The Wall Live, que inclui uma performance completa do álbum The Wall. Durante essa turnê, Gilmour e Mason (os únicos remanescentes do Pink Floyd, desde a morte de Richard Wright), mais uma vez, se uniram a Waters, em 12 de maio de 2011, na O2 Arena, em Londres. Tocou, com Gilmour, "Comfortably Numb"; Mason se juntou em "Outside the Wall".    Waters se casou quatro vezes, tendo três filhos: Harry (1976), India (1978) e Jack Fletcher (1997).
   </p>
+  ${integrantesBack}
 </section>`;
 
 export const richard = `<section>
@@ -140,6 +167,7 @@ export const richard = `<section>
     Division Bell), e que esse novo álbum teria a "Canção do cisne" de Rick, uma 
     expressão usada descrever o esforço final para um ato magnifico que precede a morte de alguém.
   </p>
+  ${integrantesBack}
 </section>`;
 
 export const david = `<section>
@@ -156,4 +184,5 @@ export const david = `<section>
   </p>
     O primeiro disco do Pink Floyd a ter Gilmour como guitarrista foi A Saucerful of Secrets de 1968. E o primeiro crédito de David por autoria no Pink, foi pela faixa instrumental que dá nome ao disco.[4] O prestígio da banda cresceu nos anos seguintes com os discos Ummagumma, Atom Heart Mother e Meddle, além das trilhas sonoras para dois filmes, More e Obscured by Clouds. O comando da banda havia sido assumido aos poucos com maestria por David Gilmour, que dividia com Roger Waters a responsabilidade de compor as músicas da banda.
   </p>
+  ${integrantesBack} 
 </section>`;

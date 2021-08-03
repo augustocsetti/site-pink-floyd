@@ -1,3 +1,114 @@
+const discografiaBack = `<div id="back-section">
+    <img src="./assets/img/back.png" alt="back" id="discografia-back">
+</div>`;
+
+export const discografiaTable = `<h2 class="main_title">Discografia</h2>
+<section id="albuns">
+  <table class="table">
+    <tr>
+      <th>Ano</th>
+      <th>Nome</th>
+    </tr>
+    <tr>
+      <td>1967</td>
+      <td>
+        <a href="#" id="piper">The Piper at the Gates of Dawn</a>
+      </td>
+    </tr>
+    <tr>
+      <td>1968</td>
+      <td>
+        <a href="#" id="saucerful">A Saucerful of Secrets</a>
+      </td>
+    </tr>
+    <tr>
+      <td>1969</td>
+      <td>
+        <a href="#" id="more">More</a>
+      </td>
+    </tr>
+    <tr>
+      <td>1969</td>
+      <td>
+        <a href="#" id="ummagumma">Ummagumma</a>
+      </td>
+    </tr>
+    <tr>
+      <td>1970</td>
+      <td>
+        <a href="#" id="atom">Atom Heart Mother</a>
+      </td>
+    </tr>
+    <tr>
+      <td>1971</td>
+      <td>
+        <a href="#" id="meddle">Meddle</a>
+      </td>
+    </tr>
+    <tr>
+      <td>1972</td>
+      <td>
+        <a href="#" id="clouds">Obscured by Clouds</a>
+      </td>
+    </tr>
+    <tr>
+      <td>1973</td>
+      <td>
+        <a href="#" id="moon">The Dark Side of the Moon</a>
+      </td>
+    </tr>
+    <tr>
+      <td>1975</td>
+      <td>
+        <a href="#" id="wish">Wish You Were Here</a>
+      </td>
+    </tr>
+    <tr>
+      <td>1977</td>
+      <td>
+        <a href="#" id="animals">Animals</a>
+      </td>
+    </tr>
+    <tr>
+      <td>1979</td>
+      <td>
+        <a href="#" id="wall">The Wall</a>
+      </td>
+    </tr>
+    <tr>
+      <td>1983</td>
+      <td>
+        <a href="#" id="cut">The Final Cut</a>
+      </td>
+    </tr>
+    <tr>
+      <td>1987</td>
+      <td>
+        <a href="#" id="reason">A Momentary Lapse of Reason</a>
+      </td>
+    </tr>
+    <tr>
+      <td>1994</td>
+      <td>
+        <a href="#" id="bell">The Division Bell</a>
+      </td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>
+        <a href="#" id="endless">The Endless River</a>
+      </td>
+    </tr>
+  </table>
+
+  <div id="discography">
+    <img
+      src="./assets/img/discography.jpg"
+      alt="discography"
+      class="certain_images"
+    />
+  </div>
+</section>`;
 
 export const piper = `<section>
 <h2 class="main_title">The Piper at Gates of Dawn</h2>
@@ -35,6 +146,7 @@ export const piper = `<section>
 <div class="youtube">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/4o2sA0vpA-4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+${discografiaBack}
 </section>`;
 
 export const saucerful = `<section>
@@ -46,9 +158,9 @@ export const saucerful = `<section>
 </p>
 <div class="youtube">
     <iframe class="youtube" width="560" height="315" src="https://www.youtube.com/embed/UYI8NnN3xZg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</di>
+</div>
+${discografiaBack}
 </section>`;
-
 
 export const more = `<section>
 <h2 class="main_title">More</h2>
@@ -65,8 +177,8 @@ export const more = `<section>
 <div class="youtube">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/GfPVM5dFlp8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+${discografiaBack}
 </section>`;
-
 
 export const ummagumma = `<section>
 <h2 class="main_title">Ummagumma</h2>
@@ -80,8 +192,8 @@ Apesar de o álbum ter sido bem recebido na altura da sua comercialização, e d
 <div class="youtube">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/xOerkHz6UYE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+${discografiaBack}
 </section>`;
-
 
 export const atom = `<section>
 <h2 class="main_title">Atom Heart Mother</h2>
@@ -100,8 +212,8 @@ Embora tenha tido sucesso comercial aquando do seu lançamento, o grupo, em part
 <div class="youtube">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/Fku7hi5kI-c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+${discografiaBack}
 </section>`;
-
 
 export const meddle = `<section>
 <h2 class="main_title">Meddle</h2>
@@ -121,8 +233,8 @@ export const meddle = `<section>
 <div class="youtube">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/-ePjekiI4Bg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+${discografiaBack}
 </section>`;
-
 
 export const clouds = `<section>
 <h2 class="main_title">Obscured by Clouds</h2>
@@ -137,8 +249,8 @@ export const clouds = `<section>
 <div class="youtube">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/X1hPMhnP5J0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+${discografiaBack}
 </section>`;
-
 
 export const moon = `<section>
 <h2 class="main_title">The Dark Side of the Moon</h2>
@@ -161,6 +273,7 @@ export const moon = `<section>
 <div class="youtube">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/sJ7XLKasyj4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+${discografiaBack}
 </section>`;
 
 export const wish = `<section>
@@ -186,8 +299,8 @@ export const wish = `<section>
 <div class="youtube">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/-YSjELJ-lSQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+${discografiaBack}
 </section>`;
-
 
 export const animals = `<section>
 <h2 class="main_title">Animals</h2>
@@ -204,8 +317,8 @@ export const animals = `<section>
 <div class="youtube">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/D4KQae9oMWs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+${discografiaBack}
 </section>`;
-
 
 export const wall = `<section>
 <h2 class="main_title">The Wall</h2>
@@ -225,6 +338,7 @@ export const wall = `<section>
 <div class="youtube">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/r48BLz42NuI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+${discografiaBack}
 </section>`;
 
 export const cut = `<section>
@@ -242,6 +356,7 @@ export const cut = `<section>
 <div class="youtube">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/-ypsN2x8i0M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+${discografiaBack}
 </section>`;
 
 export const reason = `<section>
@@ -259,6 +374,7 @@ export const reason = `<section>
 <div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ILNUaAWCW5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+${discografiaBack}
 </section>`;
 
 export const bell = `<section>
@@ -288,6 +404,7 @@ export const bell = `<section>
 <div class="youtube">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/acR51GrqYtY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+${discografiaBack}
 </section>`;
 
 export const endless = `<section>
@@ -305,4 +422,5 @@ export const endless = `<section>
 <div class="youtube">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/ADOQQiwgU0Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+${discografiaBack}
 </section>`;
