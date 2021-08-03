@@ -77,19 +77,22 @@ if (discografiaContent) {
 }
 
 const headerContent = document.getElementById("header");
-headerContent.innerHTML = `<nav class="navbar">
-      <h1 id = "title-page">SJIDSOOJDSAI</h1>
-
+headerContent.innerHTML = `
+    
+    <nav class="navbar">
+      <a id="title-page" href="index.html">The Great Gig</a>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="integrantes.html">Integrantes</a></li>
         <li><a href="discografia.html">Discografia</a></li>
         <li><a href="contato.html">Contato</a></li>
-      </ul>
-    </nav>`;
+        </ul>
+    </nav>
+
+    `;
 
 const footerContent = document.getElementById("footer");
-footerContent.innerHTML = `<div class="footer">
+footerContent.innerHTML = `<nav class="footer">
       <a target="_blank" href="https://github.com/augustocsetti">Augusto Cardoso Setti's Github</a>      
       <a target="_blank" href="https://github.com/MuriloVS">Murilo Vitória da Silva's Github</a>
-    </div>`;
+    </nav>`;
