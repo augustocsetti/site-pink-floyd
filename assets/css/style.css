@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
 :root {
   --page-width: 65%;
 }
@@ -6,14 +6,101 @@
 body {
   padding: 0;
   background: rgb(253, 253, 238);
-  font-family: 'Open sans', sans-serif;
+  font-family: "Open sans", sans-serif;
   font-size: 1em;
   line-height: 1.5em;
   width: var(--page-width);
-  height: 90%;
+  height: 80%;
   margin: 0 auto;
 }
 
+#title-page {
+  font-family: "Open sans", sans-serif;
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  display: block;
+  padding: 28px 28px;
+}
+
+/* #region NAV and FOOTER */
+.navbar {
+  top: 0;
+  display: flex;
+  list-style: none;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  width: var(--page-width);
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.navbar ul a {
+  display: block;
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.navbar ul a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.navbar a:focus {
+  background: blue;
+  color: black;
+}
+
+.footer {
+  display: flex;
+  bottom: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  width: var(--page-width);
+}
+
+.footer a {
+  /* float: right; */
+  /* display: block; */
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.footer a:hover {
+  color: rgb(255, 247, 138);
+}
+/* #endregion */
+
+/* #region MAIN and TEXT*/
+
+main {
+  margin: 100px 20px 80px 20px;
+  align-content: center;
+  text-align: justify;
+  box-shadow: 10px 5px 5px black;
+  outline: black solid 2px;
+  display: block;
+  background-color: rgb(255, 255, 255);
+  padding: 25px 25px;
+}
+
+.main_title {
+  text-align: center;
+}
+/* #endregion */
+
+/* #region FORM*/
 form input,
 form label,
 form button {
@@ -46,66 +133,10 @@ form button {
 form button:hover {
   background: rgb(235, 228, 130);
 }
+/* #endregion */
 
-.navbar,
-.footer {
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  width: var(--page-width);
-}
-
-.navbar {
-  top: 0;
-}
-
-.footer {
-  bottom: 0;
-}
-
-.navbar a,
-.footer a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  text-transform: uppercase;
-}
-
-.navbar a:hover {
-  background: #ddd;
-  color: black;
-}
-
-.navbar a:focus {
-  background: rgb(235, 228, 130);
-  color: black;
-}
-
-.footer a:hover {
-  color: rgb(255, 247, 138);
-}
-
-.main {
-  margin: 80px 20px;
-  align-content: center;
-}
-
-.w3-container {
-  box-shadow: 10px 5px 5px black;
-  outline: black solid 2px;
-  display: block;
-  background-color: rgb(255, 255, 255);
-  padding: 25px 25px;
-}
-
-.main_title {
-  text-align: center;
-}
-
-.integrantes,
+/* #region DISCOS E INTEGRANTES */
+.integrantes {
 .discos {
   border-radius: 4px;
   padding: 15px;
@@ -128,22 +159,16 @@ form button:hover {
 
 .listas {
   margin: 25px 25px;
+  padding: 0px 0px;
   list-style-type: circle;
 }
 
 .table {
+  text-align: center;
   margin: 10px;
   border: 1px solid black;
   border-spacing: 15px;
   padding: 10px;
-}
-
-tr:hover {
-  background-color: #f5f5f5;
-}
-
-.youtube {
-  text-align: center;
 }
 
 #albuns,
@@ -155,8 +180,19 @@ tr:hover {
   padding-left: 60px;
   align-self: flex-start;
 }
+/* #endregion */
 
+/* #region OUTROS */
 .certain_images {
   max-width: 100%;
   height: auto;
 }
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+.youtube {
+  text-align: center;
+}
+/* #endregion */

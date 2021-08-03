@@ -17,39 +17,40 @@ import {
 } from './discografia.js';
 import { david, nick, richard, roger, syd } from './integrantes.js';
 
-const integrantesContent = document.getElementById('integrante-conteudo');
+const integrantesContent = document.getElementById("integrante-conteudo");
 if (integrantesContent) {
-  integrantesContent.addEventListener('click', (evento) => {
+  integrantesContent.addEventListener("click", (evento) => {
     const elemento = evento.target.id;
 
-    if (elemento === 'syd') {
+    if (elemento === "syd") {
       integrantesContent.innerHTML = syd;
-    } else if (elemento === 'nick') {
+    } else if (elemento === "nick") {
       integrantesContent.innerHTML = nick;
-    } else if (elemento === 'roger') {
+    } else if (elemento === "roger") {
       integrantesContent.innerHTML = roger;
-    } else if (elemento === 'richard') {
+    } else if (elemento === "richard") {
       integrantesContent.innerHTML = richard;
-    } else if (elemento === 'david') {
+    } else if (elemento === "david") {
       integrantesContent.innerHTML = david;
     }
   });
 }
 
-const discografiaContent = document.getElementById('discografia-conteudo');
+const discografiaContent = document.getElementById("discografia-conteudo");
+console.log(discografiaContent);
 if (discografiaContent) {
-  discografiaContent.addEventListener('click', (evento) => {
+  discografiaContent.addEventListener("click", (evento) => {
     const elemento = evento.target.id;
 
-    if (elemento === 'piper') {
+    if (elemento === "piper") {
       discografiaContent.innerHTML = piper;
-    } else if (elemento === 'saucerful') {
+    } else if (elemento === "saucerful") {
       discografiaContent.innerHTML = saucerful;
-    } else if (elemento === 'more') {
+    } else if (elemento === "more") {
       discografiaContent.innerHTML = more;
-    } else if (elemento === 'ummagumma') {
+    } else if (elemento === "ummagumma") {
       discografiaContent.innerHTML = ummagumma;
-    } else if (elemento === 'atom') {
+    } else if (elemento === "atom") {
       discografiaContent.innerHTML = atom;
     } else if (elemento === 'meddle') {
       discografiaContent.innerHTML = meddle;
@@ -75,20 +76,23 @@ if (discografiaContent) {
   });
 }
 
-const headerContent = document.getElementById('header');
-headerContent.innerHTML = `<div class="navbar">
-      <a href="index.html">Home</a>
-      <a href="integrantes.html">Integrantes</a>
-      <a href="discografia.html">Discografia</a>
-      <a href="contato.html">Contato</a>
-    </div>`;
+const headerContent = document.getElementById("header");
+headerContent.innerHTML = `
+    
+    <nav class="navbar">
+      <a id="title-page" href="index.html">The Great Gig</a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="integrantes.html">Integrantes</a></li>
+        <li><a href="discografia.html">Discografia</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
 
-const footerContent = document.getElementById('footer');
-footerContent.innerHTML = `<div class="footer">
-      <a target="_blank" href="https://github.com/augustocsetti">
-      Augusto Cardoso Setti's Github
-      </a>      
-      <a target="_blank" href="https://github.com/MuriloVS">
-        Murilo Vitória da Silva's Github
-      </a>
-    </div>`;
+    `;
+
+const footerContent = document.getElementById("footer");
+footerContent.innerHTML = `<nav class="footer">
+      <a target="_blank" href="https://github.com/augustocsetti">Augusto Cardoso Setti's Github</a>      
+      <a target="_blank" href="https://github.com/MuriloVS">Murilo Vitória da Silva's Github</a>
+    </nav>`;
