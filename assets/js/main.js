@@ -14,8 +14,8 @@ import {
   reason,
   bell,
   endless,
-} from "./discografia.js";
-import { david, nick, richard, roger, syd } from "./integrantes.js";
+} from './discografia.js';
+import { david, nick, richard, roger, syd } from './integrantes.js';
 
 const integrantesContent = document.getElementById("integrante-conteudo");
 if (integrantesContent) {
@@ -52,25 +52,25 @@ if (discografiaContent) {
       discografiaContent.innerHTML = ummagumma;
     } else if (elemento === "atom") {
       discografiaContent.innerHTML = atom;
-    } else if (elemento === "meddle") {
+    } else if (elemento === 'meddle') {
       discografiaContent.innerHTML = meddle;
-    } else if (elemento === "clouds") {
+    } else if (elemento === 'clouds') {
       discografiaContent.innerHTML = clouds;
-    } else if (elemento === "moon") {
+    } else if (elemento === 'moon') {
       discografiaContent.innerHTML = moon;
-    } else if (elemento === "wish") {
+    } else if (elemento === 'wish') {
       discografiaContent.innerHTML = wish;
-    } else if (elemento === "animals") {
+    } else if (elemento === 'animals') {
       discografiaContent.innerHTML = animals;
-    } else if (elemento === "wall") {
+    } else if (elemento === 'wall') {
       discografiaContent.innerHTML = wall;
-    } else if (elemento === "cut") {
+    } else if (elemento === 'cut') {
       discografiaContent.innerHTML = cut;
-    } else if (elemento === "reason") {
+    } else if (elemento === 'reason') {
       discografiaContent.innerHTML = reason;
-    } else if (elemento === "bell") {
+    } else if (elemento === 'bell') {
       discografiaContent.innerHTML = bell;
-    } else if (elemento === "endless") {
+    } else if (elemento === 'endless') {
       discografiaContent.innerHTML = endless;
     }
   });
