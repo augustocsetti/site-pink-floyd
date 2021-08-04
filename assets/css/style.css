@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 :root {
   --page-width: 65%;
 }
@@ -11,7 +11,7 @@ body {
   background-attachment: scroll;
   background-clip: padding-box;
 
-  font-family: "Open sans", sans-serif;
+  font-family: 'Open sans', sans-serif;
   font-size: 1em;
   line-height: 1.5em;
   width: var(--page-width);
@@ -20,7 +20,7 @@ body {
 }
 
 #title-page {
-  font-family: "Bebas Neue", cursive;
+  font-family: 'Bebas Neue', cursive;
   text-decoration: none;
   font-size: 40px;
   color: white;
@@ -29,7 +29,7 @@ body {
 }
 
 #pink-floyd-h1 {
-  font-family: "Open sans", sans-serif;
+  font-family: 'Open sans', sans-serif;
   font-size: 15px;
   color: white;
   padding-left: 28px;
@@ -243,5 +243,10 @@ tr:hover {
   border-radius: 120%;
   transition: 0.75s ease;
   background-color: #008cba;
+}
+
+#contato {
+  margin-top: 50px;
+  font-size: 20px;
 }
 /* #endregion */
