@@ -24,7 +24,7 @@ export const integrantesList = `<h2 class="main_title">Integrantes</h2>
 
 export const syd = `<section>
   <h2 class="main_title">Syd Barret</h2>
-  <img src="./assets/img/300px-Sydbarret.jpg" alt="Syd_Barrett" class="integrantes">
+  <img src="./assets/img/syd_barret.jpg" alt="Syd_Barrett" class="integrantes">
   <p> 
     Roger Keith Barrett, mais conhecido como Syd Barrett (Cambridge, 6 de janeiro de 1946 — Cambridge, 7 de julho de 2006) foi um cantor, produtor, poeta, guitarrista e pintor inglês, mais lembrado como um dos fundadores do Pink Floyd. Vieram de Barrett as principais ideias musicais e estilísticas daquela que, então, era uma banda de rock psicadélico, assim como o nome do grupo. Todavia, especulações sobre sua deterioração mental, agravada pelo exagerado uso de drogas, levaram à sua saída da banda, em 1968.
   </p>
