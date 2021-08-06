@@ -252,4 +252,9 @@ tr:hover {
   margin-top: 50px;
   font-size: 20px;
 }
+
+#concert {
+  text-align: center;
+  border: 20px red;
+}
 /* #endregion */
